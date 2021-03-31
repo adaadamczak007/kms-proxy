@@ -1,0 +1,36 @@
+{
+  "name": "dirt-simple-postgis-http-api",
+  "version": "3.0.0",
+  "description": "The Dirt-Simple PostGIS HTTP API exposes PostGIS functionality to your applications over HTTP.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Tobin Bradley",
+  "license": "MIT",
+  "dependencies": {
+    "@mapbox/sphericalmercator": "^1.1.0",
+    "@rgs/geo-api-auth-js": "1.0.0",
+    "@aws-sdk/client-kms": "3.10.0",
+    "@aws-sdk/node-http-handler": "3.10.0",
+    "aws-kms-thingy": "2.0.0",
+    "aws-sdk": "2.432.0",
+    "fastify": "^2.1.0",
+    "fastify-auth": "^0.6.0",
+    "fastify-autoload": "^0.6.0",
+    "fastify-caching": "^5.0.0",
+    "fastify-compress": "0.8.1",
+    "fastify-cors": "^2.1.2",
+    "fastify-healthcheck": "2.1.0",
+    "fastify-postgres": "^2.0.0",
+    "fastify-redis": "^3.1.1",
+    "fastify-static": "^2.4.0",
+    "fastify-swagger": "^2.3.2",
+    "http": "^0.0.1-security",
+    "node-cache": "^5.0.0",
+    "node-cron": "^2.0.3",
+    "pg": "^7.9.0",
+    "pino": "5.13.4",
+    "proxy-agent": "^4.0.1"
+  }
+}

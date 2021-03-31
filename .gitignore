@@ -1,0 +1,17 @@
+.idea
+__pycache__
+tile_cache
+.ipynb_checkpoints
+*.pbf
+*.pyc
+*.swp
+*.sw*
+*.yaml
+template.json
+**/node_modules
+artifacts
+.directory
+node_modules
+.vscode
+/codeartifact_token
+venv
